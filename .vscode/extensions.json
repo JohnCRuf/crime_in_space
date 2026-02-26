@@ -1,0 +1,32 @@
+{
+  "recommendations": [
+    // Project navigation & note-taking
+    "foam.foam-vscode",
+    "shd101wyy.markdown-preview-enhanced",
+    "yzhang.markdown-all-in-one",
+
+    // LaTeX
+    "james-yu.latex-workshop",
+
+    // Lean theorem prover
+    "leanprover.lean4",       // for Lean 4
+    "leanprover.lean",        // fallback for Lean 3 if needed
+
+    // R language
+    "ikuyadeu.r",
+
+    // Stata
+    "kylebarron.stata-run",   // run Stata commands from VS Code
+    "kylebarron.stata-highlight", // syntax highlighting
+
+    // Python
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+
+    // Julia
+    "julialang.language-julia",
+
+    // CSV tools
+    "mechatroner.rainbow-csv"
+  ]
+}

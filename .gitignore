@@ -1,0 +1,5 @@
+slides/*.pdf
+paper/*.pdf
+*.bbl
+*.blg
+*.docx

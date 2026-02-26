@@ -1,0 +1,22 @@
+{
+  // Keep Foam from indexing your “single-page” master log
+  "foam.files.ignore": [
+    "logbook/logbook.md",          // exact file
+    "**/logbook/logbook.md",       // or, if the logbook might be nested
+    "**/.meta/**"                 // (optional) ignore a whole meta folder
+  ],
+
+  // (Optional) keep it out of the graph and search UIs too
+  "files.exclude": {
+    "logbook/logbook.md": true
+  },
+  "search.exclude": {
+    "logbook/logbook.md": true
+  },
+  // Adjust markdown enhanced
+  "markdown-preview-enhanced.enableScriptExecution": true,
+  "markdown-preview-enhanced.usePandocParser": false,
+  "markdown.extension.toc.orderedList": true,
+  "markdown.extension.toc.levels": "2..6",
+
+}
