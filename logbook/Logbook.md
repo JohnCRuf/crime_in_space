@@ -21,3 +21,11 @@ This is the full logbook.
 ## Related Literature
 
 @import "entries/20250809_JR.md"
+
+@import "entries/20260227_JR.md"
+
+@import "entries/20260228_JR.md"
+
+## Analysis
+
+@import "entries/20260226_JR.md"

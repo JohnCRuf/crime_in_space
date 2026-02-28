@@ -21,9 +21,27 @@ It allows for easy installation and management of Fortran libraries.
 Functions similar to Julia. 
 
 
+## Python Packages
+
+The following packages are installed into the shared `uv` environment and are available
+to all Python tasks via the `$(PYTHON)` macro (which runs `uv --project ../output`):
+
+| Package | Purpose |
+|---|---|
+| `numpy` | Numerical arrays |
+| `pandas` | Tabular data and Parquet I/O |
+| `requests` | HTTP downloads and API calls (OSRM, Socrata) |
+| `pyarrow` | Parquet read/write backend for pandas |
+| `geopandas` | Spatial join of crime points to taxi zone polygons |
+| `matplotlib` | Plotting |
+| `tqdm` | Progress bars for long-running API loops |
+
+Each downstream Python task symlinks this task's `output/pyproject.toml` into its own
+`output/` directory so the shared environment is discovered by `uv`.
+
 ## To Use:
 
-There are a handful of shortcuts to add certain packages to the do files. 
+There are a handful of shortcuts to add certain packages to the do files.
 `make` should succeed on instantiating the R, Julia, and Python environments.
 To add packages to R and Julia, you can use "make r_add PKG=PackageName" or "make julia_add PKG=PackageName".
 For Python, you can add packages to the `py_requirements.txt` file and then run `make py_add` to add them to the environment.

@@ -1,2 +1,8 @@
 numpy
 pandas
+requests
+pyarrow
+geopandas
+matplotlib
+tqdm
+scipy
