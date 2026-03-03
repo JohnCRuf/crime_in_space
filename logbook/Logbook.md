@@ -29,3 +29,11 @@ This is the full logbook.
 ## Analysis
 
 @import "entries/20260226_JR.md"
+
+@import "entries/20260303_JR.md"
+
+@import "entries/20260303_JR_shock_peoples_plan.md"
+
+@import "entries/20260303_JR_shock_shotspotter.md"
+
+@import "entries/20260303_JR_shock_psn_expansion.md"
